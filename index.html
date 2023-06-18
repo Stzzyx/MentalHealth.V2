@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="happyface.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 id="title">FREEMIND</h1>
+      <nav>
+          <ul>
+              <li class="header-link"><a href="#contact">CONTACT</a></li>
+              <li class="header-link"><a href="#section-4">INFORMATION</a></li>
+              <li class="header-link"><a href="#section-3">ABOUT</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <div class="popup">
+      <div class="popup-content">
+        <span class="close-button">&times;</span>
+        <h2>How are you feeling today?</h2>
+        <div class="answer-options">
+          <button class="answers" onclick="answer('great')">Great <br> <img src="happy1.png" alt="Great" width="100px"></button>
+          <button class="answers" onclick="answer('good')">Good <br> <img src="happy2.png" alt="Good" width="100px"></button>
+          <button class="answers" onclick="answer('okay')">Okay <br> <img src="happy3.png" alt="Okay" width="100px"></button>
+          <button class="answers" onclick="answer('not-so-good')">Ehh <br> <img src="happy4.png" alt="Not So Good" width="100px"></button>
+          <button class="answers" onclick="answer('terrible')">Terrible <br> <img src="happy5.png" alt="Terrible" width="100px"></button>
+        </div>
+      </div>
+    </div> 
+    
+    <div class="popup" id="text-area-popup">
+      <div class="popup-content">
+        <span class="close-button">&times;</span>
+        <h2>Oh No! Tell me about it</h2>
+        <p>Write about what's going on and how you're feeling, <br> if you're not comfortable, close the window :)</p>
+        <textarea id="text-area" rows="4" cols="50"></textarea>
+        <button onclick="submitTextArea()" class="submitbutton">Submit</button>
+      </div>
+    </div>
+
+    <div class="popup" id="happy-area-popup">
+      <div class="popup-content">
+        <span class="close-button">&times;</span>
+        <h2>AMAZING!</h2>
+        <p>Maybe brighten someone’s day today? :D</p>
+      </div>
+    </div>
+    
+        <section id="section-1">
+          <div class="container">
+            <div class="center-text">
+              <h1>Welcome to FREEMIND!</h1>
+              <p>Just a random website showing you resources for mental health, school, and more!</p>
+              <a href="#section-x" class="hero-btn">GET STARTED</a>
+            </div>
+            <div>
+              <img src="freeyourmind.jpg" alt="description of image" width="450px" id="idk">
+            </div>
+          </div>
+        </section>
+        <section class="section-2 section-x">
+          <h1>INFORMATION!!!!</h1>
+            <div class="scroll-container responsive">
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="section-2 section-3">
+          <h1>!!!!</h1>
+            <div class="scroll-container responsive">
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="section-2 section-4">
+          <div>
+            <h1>Apps & tools</h1>
+            <p>Apps & tools that are useful to make you feel better</p>
+          </div>
+          <div class="left-apps">
+            <div id="enhance1">
+              <a href="https://www.anxietycanada.com/resources/mindshift-cbt/">
+              <img src="unnamed.png" alt="meditation App" width="100px">
+              <p>MindShift</p>
+              </a>
+            </div>
+            <div id="enhance3">
+              <a href="https://www.ithaca.edu/center-counseling-and-psychological-services/digital-resources-mental-health-self-care-and-mindfulness/mental-health-apps/whats-mental-health-app">
+              <img src="whatsup.png" alt="meditation App" width="100px">
+              <p>What's Up?</p>
+              </a>
+            </div>
+            <div id="enhance2">
+              <a href="https://www.apppicker.com/reviews/11469/Take-a-Break-app-review-guiding-you-to-stress-relief">
+              <img src="takeabreakk.png" alt="meditation App" width="100px">
+              <p>Take a Break!</p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-2 section-5">
+          <h1 class="color">Things to Do For Fun</h1>
+            <div class="scroll-container responsive">
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Connect with Nature</h1>
+                  <img src="nature.jpg" alt="volunteer pic">
+                  <p>As long as you have free time, it is very important to be close to nature. Nature is a safe place for everyone, and there are many ways to connect with it that apply to anyone. If you prefer to be alone most of the time, you can try growing fruit or vegetables, or go to a local park and read a book by yourself. But if you’re the complete opposite, then you can maybe try gathering with a group of friends to go hiking.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Plan Something</h1>
+                  <img src="plan.jpg" alt="volunteer pic">
+                  <p>If you’re bored in bed and don’t have much to do just plan something, literally anything. Whether it’s going to the movie theaters on a Sunday with your friends or planning a vacation to somewhere you’ve wanted to visit. This idea can help keep you entertained and keep you looking forward to things you’ve wanted to do, it can also inspire you to start a new hobby of owning a planner.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Self-Care</Self-Care></h1>
+                  <img src="selfcare.jpg" alt="volunteer pic">
+                  <p>Oftentimes, we are either too busy or stuck on our phone and get lost in those things but whenever you’re free, it’s important to take care of yourself. Some examples of this are doing exercise, eating healthy meals, going for a walk, meditating, etc. These examples can help uplift your spirit and can possibly become a routine to help ensure that you take good care of your health and hygiene.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Try Some New Hobbies</h1>
+                  <img src="hobbies.png" alt="volunteer pic">
+                  <p>In the end, trying some new hobbies is the most important thing you can do in your free time. This can help you discover new talents about yourself that you may never have known existed. Having a hobby is important to everyone because it allows you to work on something and gain the knowledge you need to do it.</p>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="section-2 section-6">
+          <h1>!!!</h1>
+            <div class="scroll-container responsive">
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="boxx">
+                  <h1>Volunteering</h1>
+                  <img src="66112.jpg" alt="volunteer pic">
+                  <p>If you have a lot of free time on your hands and are looking for something that can help you and the community around you, you should try volunteering! This could mean volunteering at animal shelters, hospitals, libraries, parks, or at a food pantry, and the list goes on. There are many places to volunteer, all of which can benefit and make a positive difference to you and others.</p>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section class="section-z section-7" id="contact">
+          <a href="youtube.com">Instagram</a>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="myscripts.js" type="text/javascript"></script>
+  </body>
+</html>
